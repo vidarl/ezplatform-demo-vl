@@ -1,3 +1,8 @@
+vidarl_dummy:
+    resource: "@VidarlDummyBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 login:
     path:   /login
     defaults:  { _controller: ezpublish.security.controller:loginAction }

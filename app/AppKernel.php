@@ -49,7 +49,8 @@ class AppKernel extends Kernel
             new EzSystems\CommentsBundle\EzSystemsCommentsBundle(),
             new EzSystems\PlatformUISearchPrototypeBundle\EzSystemsPlatformUISearchPrototypeBundle(),
             new EzSystems\EzContentOnTheFlyBundle\EzSystemsEzContentOnTheFlyBundle(),
-            new AppBundle\AppBundle()
+            new AppBundle\AppBundle(),
+            new Vidarl\DummyBundle\VidarlDummyBundle(),
         );
 
         switch ($this->getEnvironment()) {

@@ -21,6 +21,12 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vidarl/DummyBundle"
+        }
+    ],
     "require": {
         "php": "~5.5|~7.0",
         "symfony/symfony": "~2.8.0",
@@ -29,7 +35,7 @@
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "^3.0.36|^4.0.6|^5.0",
-        "sensio/generator-bundle": "~2.3",
+        "sensio/generator-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "tedivm/stash-bundle": "~0.4",
         "ezsystems/ezpublish-kernel": "~6.5.0",
@@ -48,7 +54,8 @@
         "components/font-awesome": "4.4.0",
         "ezsystems/comments-bundle": "~6.0.0",
         "ezsystems/content-on-the-fly-prototype": "~0.1.0",
-        "ezsystems/platform-ui-search-prototype-bundle": "~0.1.0"
+        "ezsystems/platform-ui-search-prototype-bundle": "~0.1.0",
+        "vidarl/dummy-bundle": "dev-master"
     },
     "require-dev": {
         "behat/behat": "~3.0",
