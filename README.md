@@ -1,6 +1,6 @@
 # eZ Platform Demo
 
-foobar1
+foobar1b
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/3033038/11806375/e116d414-a312-11e5-8675-02a23e2a7788.jpg "Screenshot")
 
