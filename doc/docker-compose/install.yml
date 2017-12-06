@@ -29,7 +29,7 @@ services:
     # Dumping autoload using --optimize-autoloader to keep performenace on a usable level, not needed on linux host.
     # Second chown line:  For dev and behat tests we give a bit extra rights, never do this for prod.
     command: /bin/sh -c "
-      composer install --no-progress --no-interaction --prefer-dist;
+      php -dmemory_limit=2012M /usr/local/bin/composer install --no-progress --no-interaction --prefer-dist;
       mkdir -p web/var;
       php /scripts/wait_for_db.php;
       php app/console ezplatform:install ${INSTALL_EZ_INSTALL_TYPE};
