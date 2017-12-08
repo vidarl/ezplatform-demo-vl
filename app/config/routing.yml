@@ -1,7 +1,7 @@
-#vidarl_dummy:
-#    resource: "@VidarlDummyBundle/Controller/"
-#    type:     annotation
-#    prefix:   /
+vidarl_dummy:
+    resource: "@VidarlDummyBundle/Controller/"
+    type:     annotation
+    prefix:   /dummy/
 #
 login:
     path:   /login
