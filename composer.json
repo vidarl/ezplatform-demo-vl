@@ -49,7 +49,7 @@
         "ezsystems/comments-bundle": "~6.0.0",
         "ezsystems/content-on-the-fly-prototype": "~0.1.0",
         "ezsystems/platform-ui-search-prototype-bundle": "~0.1.0",
-        "vidarl/dummy-bundle": "dev-master"
+        "vidarl/dummy-bundle": "~1.0"
     },
     "require-dev": {
         "behat/behat": "~3.0",
